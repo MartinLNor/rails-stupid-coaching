@@ -1,0 +1,14 @@
+<div class="wrapper wrp-min text-center">
+<h1>The Answer of your coach !</h1>
+</div>
+<div class="container">
+  <div class="question">
+    <em>You said : <br> <%=@get %></em>
+  </div>
+  <div class="answer">
+    <strong>Coach say :</strong><br><%=@answer%>
+  </div>
+  <div class="text-center"> <%= link_to "Ask another question", ask_path, class:"btn btn-info btn-lg" %>
+  </div>
+
+</div>
